@@ -17,7 +17,6 @@ const GreenBox = styled.div
 const KitSection = styled.div
 `   margin-top: 10px;
     margin-bottom: 30px;
-    width: 70%;
     display: flex;
 `;
 
