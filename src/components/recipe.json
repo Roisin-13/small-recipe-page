@@ -1,0 +1,46 @@
+{
+    "shortbread": {
+        "name": "Shortbread",
+        "bakeKit": [
+            "scales/measuring cup",
+            "mixing bowl",
+            "hand mixer",
+            "rolling pin",
+            "cling film",
+            "cookie cutter",
+            "cookie stamp"
+        ],
+        "timing": [
+            "20 m. prep",
+            "40 m. chilling",
+            "10 m. baking"
+        ],
+        "yield": "24 noms",
+        "cost": "2 out of 5 monies",
+        "difficulty": "2 out of 5 biscuits",
+        "method": [
+             "Preheat the oven to 190°C",
+            "Beat the butter and the sugar together with a handheld mixer until the mixture is smooth.",
+            "Using the mixer, stir in the flour, cornmeal and cornflour – and vanilla if using it – until the mix starts to come together. Be careful not to over mix.",
+            "At this point, the mix needs to be pressed together to make a dough. Tip out onto cling film, and use it to gather the dough together. Make a flat disc, and put into the fridge to chill for 20 minutes.",
+            "Turn on to a floured work surface and gently roll out until the dough is between 5 and 10 mm in thickness.",
+            "Cut out shapes, then stamp each with a decorative motif if desired. Sprinkle with caster sugar and chill in the fridge for a further 20 minutes. Use flat plates to avoid the biscuits bending and separate with cling film if stacking on top of each other so they won't stick together.",
+            "Bake in oven for 10 minutes. Cool on a wire rack."
+        ],
+        "ingredients": [
+                "150g butter",
+                "75g white caster sugar",
+                "100g plain flour",
+                "50g cornflour",
+                "50g cornmeal",
+                "vanilla (optional)"
+        ]
+    },
+    "footer": {
+        "footer" : "Always check for allergens and allergen advice on packaging of all ingredients used and err on the side of caution. This site does not collect user information and does not maintain a database of user information."
+    }
+}
+
+
+
+
