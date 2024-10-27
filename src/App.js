@@ -7,6 +7,8 @@ import insta from './components/images/instaGallery.png';
 import data from './components/recipe.json'
 import styled from 'styled-components';
 
+import biscuits from './components/images/shortbread.jpg';
+
 const Page = styled.div
   ` background-color: #f7f2eb;
   font-family: 'Ubuntu', sans-serif;`;
@@ -39,16 +41,24 @@ const InstaLink = styled.a
 `;
 
 function App() {
+  const name = "shortbread";
   return (
     <>
       <Page>        
           <Header>
-          <Title>{data.shortbread.name}</Title>
+          <Title>{data[name].name}</Title>
           </Header>
         <GridContainer>
-            <BakeKit/>
-            <Method />
-            <Ingredients />
+            <BakeKit
+              Name={name}
+            />
+          <Method
+            Name={name}
+          />
+          <Ingredients
+            Name={name}
+            ImgSource={biscuits}
+          />
           <InstaLink href="/">
             <img src={insta}></img>
         </InstaLink>

@@ -36,6 +36,53 @@
                 "vanilla (optional)"
         ]
     },
+        "cookie": {
+            "name": "Cookie",
+            "bakeKit": [
+                "Mixing bowl",
+                "Electric mixer",
+                "Scales/measuring cup",
+                "Measuring spoons",
+                "Cling film",
+                "Baking tray"
+            ],
+            "timing": [
+                "20 m. prep",
+                "1 hr. chilling",
+                "12 m. baking"
+            ],
+            "yield": "14 noms",
+            "cost": "2 out of 5 monies",
+            "difficulty": "1 out of 5 biscuits",
+            "method": [
+                "Cream together butter, salt and all the sugars in a large mixing bowl.",
+                "Pour in golden syrup, and vanilla, then mix. ",
+                "Add egg, and mix again. ",
+                "Sift inflour, with baking powder and bicarbonate of soda.",
+                "Add the milk powder, and mix, be careful not to over mix.",
+                "Stir in the chocolate chips.",
+                "Chill for a couple of hours (the dough can also be frozen for later - just add a few minutes to cooking time).",
+                "Preheat oven to 180°C.",
+                "Break the dough into golf ball size pieces, and put them  on a baking tray about 5cm apart. ",
+                "Bake for 12 minutes, or until lightly golden brown.",
+                "Cool on the tray, as these need to firm up before being moved."
+            ],
+            "ingredients": [
+                "125g softened butter",
+                "50g soft dark brown sugar",
+                "50g soft light brown sugar",
+                "25g golden caster",
+                "2 tbsp golden syrup",
+                "¼ tsp salt",
+                "1 egg",
+                "Squeeze of vanilla",
+                "½ tsp bicarbonate of soda",
+                "½ tsp baking powder",
+                "240g plain flour",
+                "4 tbsp milk powder (optional)",
+                "100g chocolate chips"
+            ]
+        },
     "footer": {
         "footer" : "Always check for allergens and allergen advice on packaging of all ingredients used and err on the side of caution. This site does not collect user information and does not maintain a database of user information."
     }

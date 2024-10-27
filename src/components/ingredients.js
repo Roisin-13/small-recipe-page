@@ -1,5 +1,5 @@
 import data from './recipe.json';
-import biscuits from './images/shortbread.jpg';
+//import biscuits from './images/shortbread.jpg';
 import styled from 'styled-components';
 
 const GreenHeader = styled.h2 
@@ -16,23 +16,23 @@ const IngredientDetails = styled.div
     line-height: 30px;`;
 
 const HeroImage = styled.img
-` width: 100%;
-  height: 275px;
-  padding: 30px 0;
-  object-fit: cover;`;
+    ` width: 100%;
+    height: 275px;
+    padding: 30px 0;
+    object-fit: cover;`;
 
-function Ingredients() {
+function Ingredients({ Name, ImgSource }) {
     return (
         <IngredientBox>
             <GreenHeader>Ingredients</GreenHeader>
         <IngredientDetails>           
             <ul>
-                {data.shortbread.ingredients.map((ingredients) => {
+                {data[Name].ingredients.map((ingredients) => {
                     return <li>{ingredients}</li>
                 })}
             </ul>
         </IngredientDetails>
-        <HeroImage src={biscuits} alt="pile o'biscuits"></HeroImage>
+            <HeroImage src={ImgSource} alt="pile o'biscuits"></HeroImage>
         </IngredientBox>
     );
 }

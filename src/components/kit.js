@@ -44,7 +44,7 @@ const KitSubHeader = styled.p
     font-weight: bold;
 `;
 
-function BakeKit() {
+function BakeKit({Name}) {
     return ( 
         <GreenBox>
             <KitSection>
@@ -52,7 +52,7 @@ function BakeKit() {
                 <KitDetails>
                     <KitSubHeader>Bake-kit</KitSubHeader>
                     <ul>
-                        {data.shortbread.bakeKit.map((kit) => {
+                        {data[Name].bakeKit.map((kit) => {
                             return <li>{kit}</li>
                         })}
                     </ul>
@@ -66,7 +66,7 @@ function BakeKit() {
                 <KitDetails>
                     <KitSubHeader>Time</KitSubHeader>
                     <ul>
-                        {data.shortbread.timing.map((prep) => {
+                        {data[Name].timing.map((prep) => {
                             return <li>{prep}</li>
                         })}
                     </ul>
@@ -77,7 +77,7 @@ function BakeKit() {
                 <KitIcon $small src={amount} alt="biscuit icon" ></KitIcon>
                 <KitDetails>
                     <KitSubHeader>Yield</KitSubHeader>
-                <p>{data.shortbread.yield}</p>
+                <p>{data[Name].yield}</p>
                 </KitDetails>
             </KitSection>
 
@@ -85,7 +85,7 @@ function BakeKit() {
                 <KitIcon $small src={cost} alt="money icon"></KitIcon>
                 <KitDetails>
                     <KitSubHeader>Cost</KitSubHeader>
-                <p>{data.shortbread.cost}</p>
+                <p>{data[Name].cost}</p>
                 </KitDetails>
             </KitSection>
 
@@ -93,7 +93,7 @@ function BakeKit() {
                 <KitIcon $small src={difficulty} alt="difficulty icon"></KitIcon>
             <KitDetails>
                 <KitSubHeader>Difficulty</KitSubHeader>
-                <p>{data.shortbread.difficulty}</p>
+                <p>{data[Name].difficulty}</p>
                 </KitDetails>
             </KitSection>
         </GreenBox>

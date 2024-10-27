@@ -14,12 +14,12 @@ const MethodBox = styled.div
     padding: 0 30px;
 `;
 
-function Method() {
+function Method({ Name }) {
     return (  
         <MethodBox>
             <PinkHeader>Method</PinkHeader>
             <ol>
-                {data.shortbread.method.map((step) => {
+                {data[Name].method.map((step) => {
                     return <li>{step}</li>
                 })}
             </ol>
